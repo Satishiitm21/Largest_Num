@@ -1,12 +1,12 @@
 import streamlit as st
 def largest_number(num1, num2, num3):
-  largest_number = num1
-  if num2 > largest_number:
-    largest_number = num2
-  if num3 > largest_number:
-    largest_number = num3
+  return max(num1, num2, num3)
+  # if num2 > largest_number:
+  #   largest_number = num2
+  # if num3 > largest_number:
+  #   largest_number = num3
 
-  return largest_number
+  # return largest_number
   
 def main():
   st.title("Find the Largest Number")
