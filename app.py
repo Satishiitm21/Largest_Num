@@ -1,15 +1,4 @@
 def largest_number(num1, num2, num3):
-  """
-  Finds the largest number from three numbers.
-
-  Args:
-    num1: The first number.
-    num2: The second number.
-    num3: The third number.
-
-  Returns:
-    The largest number.
-  """
 
   largest_number = num1
   if num2 > largest_number:
